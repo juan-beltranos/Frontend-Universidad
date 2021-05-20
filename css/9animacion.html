@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <title>Pseudo Clase</title>
+</head>
+<style>
+    header{
+        width: 100%;
+        height: 80px;
+        background-color: gray;
+    }
+    header img{
+        width: 60px;
+        padding: 10px;
+    }
+    
+    nav{
+        height: 25%;
+        background-color: #ff9500;
+    }
+    section{
+        background-color: #c1d3fe;
+    }
+
+    footer{
+        position: fixed;
+        bottom: 0%;
+        background-color: darksalmon;
+        width: 100%;
+        height: 20px;
+        text-align: center;
+    }
+
+
+   @keyframes animation {
+        0%  {background-color: #0d41e1; left: 0px; top: 0px;}
+        25% {background-color: #0c63e7; left: 80%; top: 0px;}
+        50% {background-color: #0a85ed; left: 30%; top: 200px;}
+        75% {background-color: #09a6f3; left: 0%; top: 200px;}
+        100% {background-color: #07c8f9; left: 0%; top: 0%;}
+   }
+
+   div{
+       width: 100px;
+       height: 100px;
+       background-color: #f4e285;
+       position: relative;
+       animation-name: animation;
+       animation-duration: 5s;
+       animation-delay: 2s;
+    animation-iteration-count: infinite;
+   }
+   
+</style>
+
+<body>   
+    <header>
+        <img src="./vectores/1440776854.svg" alt="Señal">
+    </header>
+    <nav>
+        Frnaja de Navegacion, Menus o Noticias
+    </nav>
+    <div>::</div>
+    
+    <footer>Pie de Pagina Web</footer>
+
+</body>
+</html>
